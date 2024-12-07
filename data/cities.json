@@ -1,0 +1,40 @@
+// {
+//   "cities": [
+//     {
+//       "id": "1",
+//       "name": "Cairo",
+//       "country": "Egypt",
+//       "population": 20000000,
+//       "image": "https://example.com/images/cairo.jpg",
+//       "date": "2024-07-15",
+//       "position": {
+//         "lat": 30.0444,
+//         "lng": 31.2357
+//       }
+//     },
+//     {
+//       "id": "2",
+//       "name": "New York",
+//       "country": "USA",
+//       "population": 8419600,
+//       "image": "https://example.com/images/newyork.jpg",
+//       "date": "2023-11-02",
+//       "position": {
+//         "lat": 40.7128,
+//         "lng": -74.006
+//       }
+//     },
+//     {
+//       "id": "3",
+//       "name": "Tokyo",
+//       "country": "Japan",
+//       "population": 37400068,
+//       "image": "https://example.com/images/tokyo.jpg",
+//       "date": "2024-03-08",
+//       "position": {
+//         "lat": 35.6895,
+//         "lng": 139.6917
+//       }
+//     }
+//   ]
+// }
