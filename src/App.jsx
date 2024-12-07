@@ -71,7 +71,7 @@ function App() {
         <AppContextProvider>
           <RouterProvider
             router={router}
-            basename="/</WorldWise>"
+            basename="/WorldWise"
           ></RouterProvider>
         </AppContextProvider>
       </AuthProvider>
