@@ -2,7 +2,11 @@ import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
-import { createBrowserRouter, RouterProvider, HashRouter as Router } from "react-router-dom";
+import {
+  createBrowserRouter,
+  RouterProvider,
+  HashRouter as Router,
+} from "react-router-dom";
 import Layout from "./Pages/Layout";
 import Home from "./Pages/Home";
 import Price from "./Pages/Price";
@@ -69,10 +73,7 @@ function App() {
     <>
       <AuthProvider>
         <AppContextProvider>
-          <RouterProvider
-            router={router}
-            basename="/WorldWise"
-          ></RouterProvider>
+          <RouterProvider router={router}></RouterProvider>
         </AppContextProvider>
       </AuthProvider>
     </>
