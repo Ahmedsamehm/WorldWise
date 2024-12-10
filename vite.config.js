@@ -3,8 +3,9 @@ import react from "@vitejs/plugin-react";
 import path from "path";
 
 export default defineConfig({
+  base: "/WorldWise/", // Repository name here
   plugins: [react()],
-  base:"/",
+
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
